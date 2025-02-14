@@ -1,6 +1,5 @@
 import SkillCard from "./skill-card";
 import { Column } from "./utils/column";
-import { Flex } from "./utils/flex";
 
 const SkillsSection = () => {
   const skills = [
@@ -47,13 +46,13 @@ const SkillsSection = () => {
   ];
 
   return (
-    <Column className="space-y-2 ">
+    <Column className="space-y-2">
       <h3 className="text-black font-bold text-xl">Conhecimentos</h3>
-      <Flex className="w-full flex-wrap">
+      <div className="w-full grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4">
         {skills?.map((item, index) => (
           <SkillCard skill={item} key={index} />
         ))}
-      </Flex>
+      </div>
     </Column>
   );
 };
