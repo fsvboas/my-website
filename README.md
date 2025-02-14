@@ -16,3 +16,7 @@ Site de apresentação pessoal, onde compartilho minhas informações de contato
 - shadcn/ui
 - Lucide
 - Vercel
+
+## 🛠️ Como utilizar
+
+O site está hospedado na Vercel e pode ser acessado por meio deste link: http://fsvboas.vercel.app
