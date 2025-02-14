@@ -1,4 +1,5 @@
 import AboutMeSection from "./components/about-me-section";
+import EducationSection from "./components/education-section";
 import PresentationCard from "./components/presentation-card";
 import { Column } from "./components/utils/column";
 import WorkExperiencesSection from "./components/work-experiences-section";
@@ -10,6 +11,7 @@ export default function Home() {
         <PresentationCard />
         <AboutMeSection />
         <WorkExperiencesSection />
+        <EducationSection />
       </Column>
     </div>
   );
