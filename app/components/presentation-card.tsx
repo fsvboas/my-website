@@ -9,7 +9,9 @@ const PresentationCard = () => {
   return (
     <Row className="items-center justify-between border border-gray-300 p-4 rounded-xl">
       <Column className="space-y-2">
-        <h1 className="text-3xl font-bold text-black">Felippe Vilas Boas</h1>
+        <h1 className="text-2xl xs:text-3xl font-bold text-black">
+          Felippe Vilas Boas
+        </h1>
         <h2 className="text-lg text-black">Desenvolvedor Front-end</h2>
         <span className="text-sm text-[#6c6c6c]">
           São Paulo, SP - Brasil 🇧🇷
