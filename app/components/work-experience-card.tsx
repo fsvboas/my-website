@@ -2,7 +2,7 @@ import { Link as LucideLink } from "lucide-react";
 import Link from "next/link";
 import { WorkExperiencesType } from "../types/work-experiences-type";
 import { Column } from "./utils/column";
-import { Row } from "./utils/row";
+import { Flex } from "./utils/flex";
 
 interface WorkExperienceCardProps {
   workExperience: WorkExperiencesType;
@@ -10,8 +10,8 @@ interface WorkExperienceCardProps {
 
 const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
   return (
-    <Column className="flex justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2">
-      <Row className="flex items-center justify-between">
+    <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2">
+      <Flex className="flex-col sm:flex-row sm:items-center justify-between">
         <h4 className="font-bold">
           <Link
             href={workExperience.companyLink}
@@ -25,7 +25,7 @@ const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
         <span className="text-sm text-[#6c6c6c]">
           {workExperience.employmentDuration}
         </span>
-      </Row>
+      </Flex>
       <h5 className="text-sm">{workExperience.jobTitle}</h5>
       <p className="text-sm text-[#6c6c6c]">{workExperience.jobDescription}</p>
     </Column>

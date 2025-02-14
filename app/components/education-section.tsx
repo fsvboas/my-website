@@ -1,17 +1,17 @@
 import { Column } from "./utils/column";
-import { Row } from "./utils/row";
+import { Flex } from "./utils/flex";
 
 const EducationSection = () => {
   return (
     <Column className="space-y-2">
       <h3 className="text-black font-bold text-xl">Formação</h3>
-      <Column className="flex justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2">
-        <Row className="items-center justify-between">
+      <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2">
+        <Flex className="flex-col sm:flex-row sm:items-center justify-between">
           <h4 className="font-bold">Universidade Anhembi Morumbi</h4>
           <span className="text-sm text-[#6c6c6c]">
             Fevereiro de 2020 - Julho de 2022
           </span>
-        </Row>
+        </Flex>
         <p className="text-sm">
           Análise e Desenvolvimento de Sistemas, Tecnologia da Informação
         </p>
