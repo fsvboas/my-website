@@ -5,43 +5,43 @@ const SkillsSection = () => {
   const skills = [
     {
       src: "/react-logo.svg",
-      alt: "React",
+      name: "React",
     },
     {
       src: "/react-native-logo.svg",
-      alt: "React Native",
+      name: "React Native",
     },
     {
       src: "/nextjs-logo.svg",
-      alt: "Next.js",
+      name: "Next.js",
     },
     {
       src: "/typescript-logo.svg",
-      alt: "Typescript",
+      name: "TypeScript",
     },
     {
       src: "/tanstack-query-logo.svg",
-      alt: "TanStack Query",
+      name: "TanStack Query",
     },
     {
       src: "/zustand-logo.svg",
-      alt: "Zustand",
+      name: "Zustand",
     },
     {
       src: "/redux-logo.svg",
-      alt: "Redux",
+      name: "Redux",
     },
     {
       src: "/git-logo.svg",
-      alt: "Git",
+      name: "Git",
     },
     {
       src: "/github-logo.svg",
-      alt: "GitHub",
+      name: "GitHub",
     },
     {
       src: "/vercel-logo.svg",
-      alt: "Vercel",
+      name: "Vercel",
     },
   ];
 
