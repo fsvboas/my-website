@@ -7,25 +7,27 @@ import { Row } from "./utils/row";
 
 const PresentationCard = () => {
   return (
-    <Row className="flex items-center justify-between border border-gray-800 p-4 rounded-xl">
+    <Row className="flex items-center justify-between border border-gray-300 p-4 rounded-xl">
       <Column className="space-y-2">
-        <h1 className="text-3xl font-bold text-white">Felippe Vilas Boas</h1>
-        <h2 className="text-lg text-gray-400">Desenvolvedor Front-end</h2>
-        <span className="text-sm text-gray-400">São Paulo, SP - Brasil 🇧🇷</span>
+        <h1 className="text-3xl font-bold text-black">Felippe Vilas Boas</h1>
+        <h2 className="text-lg text-black">Desenvolvedor Front-end</h2>
+        <span className="text-sm text-[#6c6c6c]">
+          São Paulo, SP - Brasil 🇧🇷
+        </span>
         <Row className="space-x-1 pt-1">
           <Link href="https://github.com/fsvboas" target="_blank">
-            <Button className="border border-gray-600 px-2.5 rounded-[8px] hover:bg-gray-600 duration-300">
-              <Github className="text-white" />
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
+              <Github className="text-black" />
             </Button>
           </Link>
           <Link href="https://linkedin.com/in/fsvboas" target="_blank">
-            <Button className="border border-gray-600 px-2.5 rounded-[8px] hover:bg-gray-600 duration-300">
-              <Linkedin className="text-white" />
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
+              <Linkedin className="text-black" />
             </Button>
           </Link>
           <Link href="mailto: fsvboas.dev@gmail.com" target="_blank">
-            <Button className="border border-gray-600 px-2.5 rounded-[8px] hover:bg-gray-600 duration-300">
-              <Mail className="text-white" />
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
+              <Mail className="text-black" />
             </Button>
           </Link>
         </Row>

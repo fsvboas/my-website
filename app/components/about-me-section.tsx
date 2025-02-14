@@ -3,8 +3,8 @@ import { Column } from "./utils/column";
 const AboutMeSection = () => {
   return (
     <Column className="space-y-2">
-      <h3 className="text-white font-bold text-xl">Sobre mim</h3>
-      <p className="text-gray-400 text-justify">
+      <h3 className="text-black font-bold text-xl">Sobre mim</h3>
+      <p className="text-[#6c6c6c] text-justify">
         Desenvolvedor Front-end com 2 anos de experiência profissional na
         criação de interfaces dinâmicas e responsivas para aplicações web e
         mobile. Possuo um sólido conhecimento em tecnologias como React,
