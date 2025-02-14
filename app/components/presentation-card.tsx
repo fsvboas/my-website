@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
@@ -28,6 +28,12 @@ const PresentationCard = () => {
           <Link href="mailto: fsvboas.dev@gmail.com" target="_blank">
             <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
               <Mail className="text-black" />
+            </Button>
+          </Link>
+          <Link href="https://wa.me/5511991668762" target="_blank">
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
+              {/* TO-DO: Substituir pelo ícone do WhatsApp */}
+              <Phone className="text-black" />{" "}
             </Button>
           </Link>
         </Row>
