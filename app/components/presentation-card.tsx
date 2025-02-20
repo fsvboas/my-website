@@ -7,7 +7,7 @@ import { Row } from "./utils/row";
 
 const PresentationCard = () => {
   return (
-    <Row className="items-center justify-between border border-gray-300 p-4 rounded-xl">
+    <Row className="items-center justify-between border border-gray-300 p-4 rounded-xl hover:border-gray-400 duration-300">
       <Column className="space-y-2">
         <h1 className="text-2xl xs:text-3xl font-bold text-black">
           Felippe Vilas Boas

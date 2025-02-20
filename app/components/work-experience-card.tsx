@@ -10,7 +10,7 @@ interface WorkExperienceCardProps {
 
 const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
   return (
-    <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2">
+    <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2 hover:border-gray-400 duration-300">
       <Flex className="flex-col sm:flex-row sm:items-center justify-between">
         <h4 className="font-bold">
           <Link

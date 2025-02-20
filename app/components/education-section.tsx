@@ -5,7 +5,7 @@ const EducationSection = () => {
   return (
     <Column className="space-y-2">
       <h3 className="text-black font-bold text-xl">Formação</h3>
-      <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2">
+      <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2 hover:border-gray-400 duration-300">
         <Flex className="flex-col sm:flex-row sm:items-center justify-between">
           <h4 className="font-bold">Universidade Anhembi Morumbi</h4>
           <span className="text-sm text-[#6c6c6c]">
