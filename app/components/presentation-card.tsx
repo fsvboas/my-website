@@ -45,6 +45,7 @@ const PresentationCard = () => {
         height={150}
         width={150}
         className="hidden sm:block rounded-xl"
+        priority={true}
       />
     </Row>
   );
