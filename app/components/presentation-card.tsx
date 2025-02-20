@@ -18,22 +18,22 @@ const PresentationCard = () => {
         </span>
         <Row className="space-x-1 pt-1">
           <Link href="https://github.com/fsvboas" target="_blank">
-            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
-              <Github className="text-black" />
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-black duration-300 hover:text-white">
+              <Github />
             </Button>
           </Link>
           <Link href="https://linkedin.com/in/fsvboas" target="_blank">
-            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
-              <Linkedin className="text-black" />
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] duration-300 hover:bg-[#0275b3] hover:text-white">
+              <Linkedin />
             </Button>
           </Link>
           <Link href="mailto: fsvboas.dev@gmail.com" target="_blank">
-            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
-              <Mail className="text-black" />
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-[#de493b] duration-300 hover:text-white">
+              <Mail />
             </Button>
           </Link>
           <Link href="https://wa.me/5511991668762" target="_blank">
-            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-gray-300 duration-300">
+            <Button className="border border-gray-300 px-2.5 rounded-[8px] hover:bg-[#25d365] duration-300 hover:text-white">
               <Image src="/whatsapp-icon.svg" alt="" height={16} width={16} />
             </Button>
           </Link>
