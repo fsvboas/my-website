@@ -10,7 +10,7 @@ interface WorkExperienceCardProps {
 
 const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
   return (
-    <Column className="justify-between border border-gray-300 p-4 rounded-xl bg-gray-200 space-y-2 hover:border-gray-400 duration-300">
+    <Column className="justify-between border border-gray-300 dark:border-gray-600 p-4 rounded-xl bg-gray-200 dark:bg-[#202020] space-y-2 hover:border-gray-400 dark:hover:border-gray-400 duration-300">
       <Flex className="flex-col sm:flex-row sm:items-center justify-between">
         <h4 className="font-bold">
           <Link
@@ -22,12 +22,14 @@ const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
             <LucideLink size={16} />
           </Link>
         </h4>
-        <span className="text-sm text-[#6c6c6c]">
+        <span className="text-sm text-gray-600 dark:text-gray-400">
           {workExperience.employmentDuration}
         </span>
       </Flex>
       <h5 className="text-sm">{workExperience.jobTitle}</h5>
-      <p className="text-sm text-[#6c6c6c]">{workExperience.jobDescription}</p>
+      <p className="text-sm text-gray-600 dark:text-gray-400">
+        {workExperience.jobDescription}
+      </p>
     </Column>
   );
 };

@@ -17,12 +17,14 @@ const WorkExperiencesSection = () => {
           profissional, permitindo que, em poucos meses, eu evoluísse para a
           posição de desenvolvedor júnior.
           <br />
+          <br />
           Como desenvolvedor júnior, trabalhei em diversos projetos
           simultaneamente, incluindo o desenvolvimento do site institucional da
           empresa, além de sistemas administrativos, financeiros e de
           e-commerce. Essa experiência me proporcionou a oportunidade de
           aprimorar habilidades essenciais, como resolução de problemas, gestão
           eficiente de tempo e colaboração em equipe.
+          <br />
           <br />
           Minha dedicação e capacidade de entregar resultados consistentes me
           levaram à promoção para desenvolvedor pleno. Nessa nova etapa, assumi
@@ -52,7 +54,7 @@ const WorkExperiencesSection = () => {
 
   return (
     <Column className="space-y-2">
-      <h3 className="text-black font-bold text-xl">
+      <h3 className="text-black dark:text-white font-bold text-xl">
         Experiências Profissionais
       </h3>
       {workExperiences?.map((item, index) => (
