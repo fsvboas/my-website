@@ -13,7 +13,7 @@ const SwitchThemeButton = () => {
       className="shadow-none absolute right-6 top-6 border border-gray-300 dark:border-gray-600 rounded-[8px] hover:bg-black duration-300 hover:text-white dark:hover:bg-white dark:hover:text-black"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      <Show when={theme === "dark"} fallback={<Sun />}>
+      <Show when={theme === "light"} fallback={<Sun />}>
         <Moon />
       </Show>
     </Button>
