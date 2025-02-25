@@ -13,7 +13,7 @@ const PresentationCard = () => {
         <h2 className="text-lg text-black dark:text-gray-400">
           Desenvolvedor Front-end
         </h2>
-        <span className="text-sm text-gray-600 dark:text-gray-400">
+        <span className="text-sm text-gray-600 dark:text-gray-500">
           São Paulo, SP - Brasil 🇧🇷
         </span>
         <SocialLinks />
