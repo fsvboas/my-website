@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "fsvboas",
+  title: "fsvboas | Felippe Vilas Boas",
   description:
-    "Desenvolvedor front-end | React - Next - React Native - TypeScript",
+    "Desenvolvedor Front-end | React - Next - React Native - TypeScript",
 };
 
 export default function RootLayout({
