@@ -1,5 +1,8 @@
+import { Download } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import SocialLinks from "./social-links";
+import { Button } from "./ui/button";
 import { Column } from "./utils/column";
 import { Row } from "./utils/row";
 
@@ -17,6 +20,14 @@ const PresentationCard = () => {
           São Paulo, SP - Brasil 🇧🇷
         </span>
         <SocialLinks />
+        <Link href="/curriculum-vitae.pdf" target="_blank" download>
+          <Button
+            aria-label="download-cv"
+            className="border border-gray-300 dark:border-gray-600 px-4 rounded-[8px] hover:bg-black duration-300 hover:text-white"
+          >
+            <Download /> Baixar Currículo
+          </Button>
+        </Link>
       </Column>
       <Image
         src="/felippe.jpeg"
