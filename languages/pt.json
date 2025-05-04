@@ -1,0 +1,38 @@
+{
+  "PresentationCard": {
+    "role": "Desenvolvedor Front-end",
+    "location": "São Paulo, SP - Brasil",
+    "download-cv-button": "Baixar Currículo"
+  },
+  "SummarySection": {
+    "title": "Resumo",
+    "summary": "Desenvolvedor Front-end com mais de 2 anos de experiência na criação de interfaces modernas, responsivas e performáticas para aplicações web e mobile. Possui domínio em tecnologias como React, Next.js, React Native, TypeScript, Tailwind CSS e TanStack Query, além de experiência sólida na integração com APIs RESTful. Atua com boas práticas de versionamento utilizando Git e tem familiaridade com metodologias ágeis, como Scrum, colaborando de forma eficiente em times multidisciplinares."
+  },
+  "WorkExperiencesSection": {
+    "title": "Experiência",
+    "companies": {
+      "80lines": {
+        "companyName": "80 Lines",
+        "employmentDuration": "Junho de 2022 - Dezembro de 2023",
+        "jobTitle": "Desenvolvedor Front-end",
+        "jobDescription": "Entrei na 80 Lines como desenvolvedor front-end trainee, onde tive a oportunidade de aprender com mentores altamente capacitados. Essas mentorias foram fundamentais para meu crescimento técnico e profissional, permitindo que, em poucos meses, eu evoluísse para a posição de desenvolvedor júnior.<br /><br />Como desenvolvedor júnior, trabalhei em diversos projetos simultaneamente, incluindo o desenvolvimento do site institucional da empresa, além de sistemas administrativos, financeiros e de e-commerce. Essa experiência me proporcionou a oportunidade de aprimorar habilidades essenciais, como resolução de problemas, gestão eficiente de tempo e colaboração em equipe.<br /><br />Minha dedicação e capacidade de entregar resultados consistentes me levaram à promoção para desenvolvedor pleno. Nessa nova etapa, assumi responsabilidades mais complexas, sendo um dos principais desenvolvedores front-end da empresa."
+      },
+      "neoris": {
+        "companyName": "NEORIS",
+        "employmentDuration": "Maio de 2021 - Novembro de 2021",
+        "jobTitle": "Desenvolvedor SAP",
+        "jobDescription": "Iniciei minha carreira profissional na NEORIS, como desenvolvedor SAP trainee. Esta foi uma importante porta de entrada para o mercado de trabalho, permitindo-me adquirir os conhecimentos fundamentais sobre o funcionamento do setor de tecnologia. Durante minha trajetória na empresa, trabalhei tanto com desenvolvimento do front-end quanto o do back-end das aplicações, o que me proporcionou uma visão ampla e aprofundada de todas as etapas de criação e manutenção de sistemas."
+      }
+    }
+  },
+  "EducationSection": {
+    "title": "Formação",
+    "university": "Universidade Anhembi Morumbi",
+    "date": "Fevereiro 2020 – Julho 2022",
+    "course": "Análise e Desenvolvimento de Sistemas, T.I",
+    "courseSummary": "Curso superior focado na formação de profissionais capazes de analisar, projetar, desenvolver, implementar e gerenciar sistemas de informação. Ele integra áreas de tecnologia, negócios e resolução de problemas, oferecendo uma ampla gama de habilidades em informática e processos de gestão."
+  },
+  "SkillsSection": {
+    "title": "Habilidades"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "PresentationCard": {
+    "role": "Front-end Developer",
+    "location": "São Paulo, SP - Brazil",
+    "download-cv-button": "Download CV"
+  },
+  "SummarySection": {
+    "title": "Summary",
+    "summary": "Front-end Developer with over 2 years of experience in building modern, responsive, and high-performance interfaces for web and mobile applications. Proficient in technologies such as React, Next.js, React Native, TypeScript, Tailwind CSS, and TanStack Query, with solid experience in integrating RESTful APIs. Skilled in version control best practices using Git and familiar with agile methodologies like Scrum, contributing effectively to cross-functional teams."
+  },
+  "WorkExperiencesSection": {
+    "title": "Experience",
+    "companies": {
+      "80lines": {
+        "companyName": "80 Lines",
+        "employmentDuration": "June 2022 - December 2023",
+        "jobTitle": "Front-end Developer",
+        "jobDescription": "I joined 80 Lines as a trainee front-end developer, where I had the opportunity to learn from highly skilled mentors. These mentorships were essential to my technical and professional growth, allowing me to progress to a junior developer position within just a few months. <br/> As a junior developer, I worked on multiple projects simultaneously, including the development of the company’s institutional website, as well as administrative, financial, and e-commerce systems. This experience helped me sharpen key skills such as problem-solving, effective time management, and teamwork. <br/> My dedication and ability to consistently deliver results led to a promotion to mid-level developer. In this new role, I took on more complex responsibilities and became one of the company’s lead front-end developers."
+      },
+      "neoris": {
+        "companyName": "NEORIS",
+        "employmentDuration": "May 2021 - November 2021",
+        "jobTitle": "SAP Developer",
+        "jobDescription": "I began my professional career at NEORIS as a SAP trainee developer. This was an important entry point into the job market, allowing me to gain foundational knowledge about how the technology sector operates. During my time at the company, I worked on both front-end and back-end development, which gave me a broad and in-depth understanding of all stages involved in building and maintaining systems."
+      }
+    }
+  },
+  "EducationSection": {
+    "title": "Education",
+    "university": "Universidade Anhembi Morumbi",
+    "date": "February 2020 – July 2022",
+    "course": "Systems Analysis and Development, I.T",
+    "courseSummary": "Bachelor’s degree focused on preparing professionals to analyze, design, develop, implement, and manage information systems. The program combines technology, business, and problem-solving, providing a broad set of skills in computing and management processes."
+  },
+  "SkillsSection": {
+    "title": "Skills"
+  }
+}

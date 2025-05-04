@@ -27,9 +27,12 @@ const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
         </span>
       </Flex>
       <h5 className="text-sm">{workExperience.jobTitle}</h5>
-      <p className="text-sm text-gray-600 dark:text-gray-400">
-        {workExperience.jobDescription}
-      </p>
+      <p
+        className="text-sm text-gray-600 dark:text-gray-400"
+        dangerouslySetInnerHTML={{
+          __html: workExperience.jobDescription ?? "",
+        }}
+      />
     </Column>
   );
 };

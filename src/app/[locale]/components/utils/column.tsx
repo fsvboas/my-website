@@ -1,4 +1,4 @@
-import { classNames } from "@/app/utils/class-names";
+import { classNames } from "@/src/app/[locale]/utils/class-names";
 import React from "react";
 
 type ColumnProps = React.HTMLAttributes<HTMLDivElement>;

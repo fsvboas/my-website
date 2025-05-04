@@ -1,7 +1,10 @@
+import { useTranslations } from "next-intl";
 import SkillCard from "./skill-card";
 import { Column } from "./utils/column";
 
 const SkillsSection = () => {
+  const i18n = useTranslations("SkillsSection");
+
   const skills = [
     {
       src: "/react-logo.svg",
@@ -48,7 +51,7 @@ const SkillsSection = () => {
   return (
     <Column className="space-y-2 ">
       <h3 className="text-black dark:text-white font-bold text-xl">
-        Conhecimentos
+        {i18n("title")}
       </h3>
       <div className="w-full grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4">
         {skills?.map((item, index) => (
