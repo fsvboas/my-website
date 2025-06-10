@@ -16,12 +16,32 @@ const SkillsSection = () => {
       name: "Next.js",
     },
     {
+      src: "/vuejs-logo.svg",
+      name: "Vue.js",
+    },
+    {
       src: "/typescript-logo.svg",
       name: "TypeScript",
     },
     {
+      src: "/tailwindcss-logo.svg",
+      name: "Tailwind CSS",
+    },
+    {
+      src: "/axios-logo.svg",
+      name: "Axios",
+    },
+    {
       src: "/tanstack-query-logo.svg",
       name: "TanStack Query",
+    },
+    {
+      src: "/motion-logo.svg",
+      name: "Motion",
+    },
+    {
+      src: "/vitest-logo.svg",
+      name: "Vitest",
     },
     {
       src: "/zustand-logo.svg",
@@ -32,16 +52,16 @@ const SkillsSection = () => {
       name: "Redux",
     },
     {
+      src: "/vite-logo.svg",
+      name: "Vite",
+    },
+    {
       src: "/git-logo.svg",
       name: "Git",
     },
     {
       src: "/github-logo.svg",
       name: "GitHub",
-    },
-    {
-      src: "/vercel-logo.svg",
-      name: "Vercel",
     },
   ];
 
