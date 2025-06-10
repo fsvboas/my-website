@@ -29,7 +29,7 @@ const PresentationCard = () => {
         </a>
       </Column>
       <Image
-        src="/felippe.png"
+        src="/felippe.webp"
         alt="Foto de Perfil"
         height={150}
         width={150}
