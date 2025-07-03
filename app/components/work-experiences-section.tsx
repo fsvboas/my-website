@@ -7,6 +7,14 @@ const WorkExperiencesSection = () => {
     {
       company: "Freelance",
       companyLink: "",
+      employmentDuration: "Junho de 2025 - o momento",
+      jobTitle: "Desenvolvedor Front-end Web & Mobile",
+      jobDescription:
+        "Responsável pela manutenção e desenvolvimento de novas funcionalidades em uma plataforma SaaS de e-commerce, atuando tanto nos aplicativos voltados para o cliente (web e mobile) quanto no painel administrativo (admin).",
+    },
+    {
+      company: "Freelance",
+      companyLink: "",
       employmentDuration: "Agosto de 2024 - Dezembro de 2024",
       jobTitle: "Desenvolvedor Front-end Web",
       jobDescription:
