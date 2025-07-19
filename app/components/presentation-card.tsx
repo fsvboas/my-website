@@ -33,7 +33,7 @@ const PresentationCard = () => {
         alt="Foto de Perfil"
         height={150}
         width={150}
-        className="hidden xs:block rounded-xl"
+        className="hidden xs:block min-[500px]:w-[180px] rounded-xl"
       />
     </Row>
   );
