@@ -1,6 +1,7 @@
 import { EducationExperiencesType } from "../types/education-experiences-type";
 import { Column } from "./utils/column";
 import { Flex } from "./utils/flex";
+import { Show } from "./utils/show";
 
 interface EducationExperienceCardProps {
   educationExperience: EducationExperiencesType;
@@ -18,11 +19,11 @@ const EducationExperienceCard = ({
         </span>
       </Flex>
       <p className="text-sm">{educationExperience.courseName}</p>
-      {educationExperience?.courseDescription && (
+      <Show when={educationExperience?.courseDescription}>
         <p className="text-gray-600 dark:text-gray-400 text-justify text-sm">
           {educationExperience?.courseDescription}
         </p>
-      )}
+      </Show>
     </Column>
   );
 };
