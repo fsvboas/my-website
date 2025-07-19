@@ -22,77 +22,77 @@ export default SkillsSection;
 const skills: SkillsType[] = [
   {
     name: "React",
-    src: "/react-logo.svg",
+    src: "/svgs/react-logo.svg",
     link: "https://react.dev/",
   },
   {
     name: "React Native",
-    src: "/react-native-logo.svg",
+    src: "/svgs/react-native-logo.svg",
     link: "https://reactnative.dev/",
   },
   {
     name: "Next.js",
-    src: "/nextjs-logo.svg",
+    src: "/svgs/nextjs-logo.svg",
     link: "https://nextjs.org/",
   },
   {
     name: "Vue.js",
-    src: "/vuejs-logo.svg",
+    src: "/svgs/vuejs-logo.svg",
     link: "https://vuejs.org/",
   },
   {
     name: "TypeScript",
-    src: "/typescript-logo.svg",
+    src: "/svgs/typescript-logo.svg",
     link: "https://www.typescriptlang.org/",
   },
   {
     name: "Tailwind CSS",
-    src: "/tailwindcss-logo.svg",
+    src: "/svgs/tailwindcss-logo.svg",
     link: "https://tailwindcss.com/",
   },
   {
     name: "Axios",
-    src: "/axios-logo.svg",
+    src: "/svgs/axios-logo.svg",
     link: "https://axios-http.com/",
   },
   {
     name: "TanStack Query",
-    src: "/tanstack-query-logo.svg",
+    src: "/svgs/tanstack-query-logo.svg",
     link: "https://tanstack.com/",
   },
   {
     name: "Motion",
-    src: "/motion-logo.svg",
+    src: "/svgs/motion-logo.svg",
     link: "https://motion.dev/",
   },
   {
     name: "Vitest",
-    src: "/vitest-logo.svg",
+    src: "/svgs/vitest-logo.svg",
     link: "https://vitest.dev/",
   },
   {
     name: "Zustand",
-    src: "/zustand-logo.svg",
+    src: "/svgs/zustand-logo.svg",
     link: "https://zustand-demo.pmnd.rs/",
   },
   {
     name: "Redux",
-    src: "/redux-logo.svg",
+    src: "/svgs/redux-logo.svg",
     link: "https://redux.js.org/",
   },
   {
     name: "Vite",
-    src: "/vite-logo.svg",
+    src: "/svgs/vite-logo.svg",
     link: "https://vite.dev/",
   },
   {
     name: "Git",
-    src: "/git-logo.svg",
+    src: "/svgs/git-logo.svg",
     link: "https://git-scm.com/",
   },
   {
     name: "GitHub",
-    src: "/github-logo.svg",
+    src: "/svgs/github-logo.svg",
     link: "https://github.com/",
   },
 ];
