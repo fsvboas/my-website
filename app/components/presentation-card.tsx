@@ -19,7 +19,7 @@ const PresentationCard = () => {
           São Paulo, SP - Brasil 🇧🇷
         </span>
         <SocialLinks />
-        <a href="/curriculum-vitae.pdf" target="_blank" download>
+        <a href="/documents/curriculum-vitae.pdf" target="_blank" download>
           <Button
             aria-label="download-cv"
             className="border border-gray-300 dark:border-gray-600 px-4 rounded-[8px] hover:bg-gray-500 duration-300 hover:text-white"
@@ -29,11 +29,11 @@ const PresentationCard = () => {
         </a>
       </Column>
       <Image
-        src="/felippe.webp"
+        src="/images/felippe.webp"
         alt="Foto de Perfil"
         height={150}
         width={150}
-        className="hidden xs:block rounded-xl"
+        className="hidden xs:block min-[500px]:w-[180px] rounded-xl"
       />
     </Row>
   );

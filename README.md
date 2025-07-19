@@ -2,7 +2,7 @@
    Meu Website  
 </h1>
 
-<img src="public/preview.gif">
+<img src="public/images/preview.gif">
 
 ## 🧾 Sobre
 
