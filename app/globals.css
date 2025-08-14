@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body,
+  div,
+  * {
+    @apply transition-colors duration-300  !important;
+  }
+}

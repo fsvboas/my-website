@@ -9,7 +9,7 @@ const SocialLinks = () => {
       <Link href="https://github.com/fsvboas" target="_blank">
         <Button
           aria-label="github-link"
-          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded-[8px] hover:bg-black duration-300 hover:text-white"
+          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded-[8px] hover:bg-black hover:text-white"
         >
           <Github />
         </Button>
