@@ -21,10 +21,10 @@ const workExperiences: WorkExperiencesType[] = [
   {
     company: "Freelance",
     companyLink: "",
-    employmentDuration: "Jun/2025 - o momento",
+    employmentDuration: "Jun/2025 - Jul/2025",
     jobTitle: "Desenvolvedor Front-end Web & Mobile",
     jobDescription:
-      "Responsável pela manutenção e desenvolvimento de novas funcionalidades em uma plataforma SaaS de e-commerce, atuando tanto nos aplicativos voltados para o cliente (web e mobile) quanto no painel administrativo (admin).",
+      "Responsável pela manutenção e desenvolvimento de novas funcionalidades em uma plataforma SaaS de e-commerce, atuando tanto nos aplicativos voltados para o cliente (web e mobile) quanto no painel administrativo.",
   },
   {
     company: "Freelance",
@@ -32,7 +32,7 @@ const workExperiences: WorkExperiencesType[] = [
     employmentDuration: "Ago/2024 - Dez/2024",
     jobTitle: "Desenvolvedor Front-end Web",
     jobDescription:
-      "Como freelancer, fui responsável pela manutenção de um software já existente, buscando otimizar a interatividade do usuário, o desempenho e os mecanismos de busca (SEO) do produto.",
+      "Como freelancer, fui responsável pela manutenção de um software já existente, buscando otimizar a interatividade do usuário (UX), o desempenho e os mecanismos de busca (SEO) do produto.",
   },
   {
     company: "80 Lines",

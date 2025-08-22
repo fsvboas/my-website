@@ -32,7 +32,7 @@ const SwitchThemeButton = () => {
     >
       <Button
         aria-label="switch-theme"
-        className="shadow-none border border-gray-300 dark:border-gray-600 rounded-[8px] hover:bg-black duration-300 hover:text-white dark:hover:bg-white dark:hover:text-black"
+        className="shadow-none border border-gray-300 dark:border-gray-600 rounded-[8px] hover:bg-black duration-300 hover:text-white dark:hover:bg-white dark:hover:text-black active:bg-none focus:bg-none"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         <motion.div
@@ -41,7 +41,10 @@ const SwitchThemeButton = () => {
           animate={{ rotate: 0, opacity: 1 }}
           transition={{ duration: 0.3 }}
         >
-          <Show when={theme === "light"} fallback={<Sun />}>
+          <Show
+            when={theme === "light"}
+            fallback={<Sun className="text-yellow-500" />}
+          >
             <Moon />
           </Show>
         </motion.div>
