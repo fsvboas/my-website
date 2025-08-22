@@ -10,8 +10,8 @@ const SummarySection = () => {
         mobile. Possui domínio em tecnologias como React, Next.js, React Native,
         TypeScript, Tailwind CSS e TanStack Query, além de experiência sólida na
         integração com APIs RESTful. Atua com boas práticas de versionamento
-        utilizando Git e tem familiaridade com metodologias ágeis, como Scrum,
-        colaborando de forma eficiente em times multidisciplinares.
+        utilizando Git e tem familiaridade com metodologias ágeis, colaborando
+        de forma eficiente em times multidisciplinares.
       </p>
     </Column>
   );
