@@ -19,8 +19,8 @@ export default WorkExperiencesSection;
 
 const workExperiences: WorkExperiencesType[] = [
   {
-    company: "Freelance",
-    companyLink: "",
+    company: "Nau! SaaS (Freelance)",
+    companyLink: "https://www.linkedin.com/company/fabrika-apps/",
     employmentDuration: "Jun/2025 - Jul/2025",
     jobTitle: "Desenvolvedor Front-end Web & Mobile",
     jobDescription:
