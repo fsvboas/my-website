@@ -32,7 +32,7 @@ const SwitchThemeButton = () => {
     >
       <Button
         aria-label="switch-theme"
-        className="shadow-none border border-gray-300 dark:border-gray-600 rounded-[8px] hover:bg-black duration-300 hover:text-white dark:hover:bg-white dark:hover:text-black active:bg-none focus:bg-none"
+        className="shadow-none"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         <motion.div
