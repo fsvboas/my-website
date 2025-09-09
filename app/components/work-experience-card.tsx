@@ -13,7 +13,7 @@ const WorkExperienceCard = ({ workExperience }: WorkExperienceCardProps) => {
   const companyLinkExists = workExperience.companyLink !== "";
 
   return (
-    <Column className="justify-between border border-gray-300 dark:border-gray-600 p-4 rounded-xl bg-gray-200 dark:bg-[#202020] space-y-2 hover:border-gray-400 dark:hover:border-gray-400 duration-300">
+    <Column className="justify-between border border-gray-300 dark:border-gray-600 p-4 rounded bg-gray-200 dark:bg-[#202020] space-y-2 hover:border-gray-400 dark:hover:border-gray-400 duration-300">
       <Flex className="flex-col sm:flex-row sm:items-center justify-between">
         <h4 className="font-bold">
           <Link

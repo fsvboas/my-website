@@ -9,7 +9,7 @@ const SocialLinks = () => {
       <Link href="https://github.com/fsvboas" target="_blank">
         <Button
           aria-label="github-link"
-          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded-[8px] hover:bg-black hover:text-white"
+          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded hover:bg-black hover:text-white"
         >
           <Github />
         </Button>
@@ -17,7 +17,7 @@ const SocialLinks = () => {
       <Link href="https://linkedin.com/in/fsvboas" target="_blank">
         <Button
           aria-label="linkedin-link"
-          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded-[8px] duration-300 hover:bg-[#0275b3] hover:text-white"
+          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded duration-300 hover:bg-[#0275b3] hover:text-white"
         >
           <Linkedin />
         </Button>
@@ -25,7 +25,7 @@ const SocialLinks = () => {
       <Link href="mailto: fsvboas.dev@gmail.com" target="_blank">
         <Button
           aria-label="email-link"
-          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded-[8px] hover:bg-[#de493b] duration-300 hover:text-white"
+          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded hover:bg-[#de493b] duration-300 hover:text-white"
         >
           <Mail />
         </Button>
@@ -33,7 +33,7 @@ const SocialLinks = () => {
       <Link href="https://wa.me/5511991668762" target="_blank">
         <Button
           aria-label="whatsapp-link"
-          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded-[8px] hover:bg-[#25d365] duration-300 hover:text-white"
+          className="border border-gray-300 dark:border-gray-600 px-2.5 rounded hover:bg-[#25d365] duration-300 hover:text-white"
         >
           <Phone />
         </Button>

@@ -9,7 +9,7 @@ interface SkillCardProps {
 const SkillCard = ({ skill }: SkillCardProps) => {
   return (
     <Link
-      className="flex flex-col h-[140px] xs:w-[140px] items-center justify-between border border-gray-300 dark:border-gray-600 dark:bg-[#202020] p-5 rounded-xl hover:scale-105 hover:border-gray-400 dark:hover:border-gray-400 !transition-all !duration-300"
+      className="flex flex-col h-[140px] xs:w-[140px] items-center justify-between border border-gray-300 dark:border-gray-600 dark:bg-[#202020] p-5 rounded hover:scale-105 hover:border-gray-400 dark:hover:border-gray-400 !transition-all !duration-300"
       href={skill.link}
       target="_blank"
     >
