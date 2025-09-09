@@ -26,11 +26,6 @@ const skills: SkillsType[] = [
     link: "https://react.dev/",
   },
   {
-    name: "React Native",
-    src: "/svgs/react-native-logo.svg",
-    link: "https://reactnative.dev/",
-  },
-  {
     name: "Next.js",
     src: "/svgs/nextjs-logo.svg",
     link: "https://nextjs.org/",
@@ -39,6 +34,16 @@ const skills: SkillsType[] = [
     name: "Vue.js",
     src: "/svgs/vuejs-logo.svg",
     link: "https://vuejs.org/",
+  },
+  {
+    name: "Nuxt.js",
+    src: "/svgs/nuxtjs-logo.svg",
+    link: "https://nuxt.com/",
+  },
+  {
+    name: "React Native",
+    src: "/svgs/react-native-logo.svg",
+    link: "https://reactnative.dev/",
   },
   {
     name: "TypeScript",
@@ -51,6 +56,16 @@ const skills: SkillsType[] = [
     link: "https://tailwindcss.com/",
   },
   {
+    name: "Zustand",
+    src: "/svgs/zustand-logo.svg",
+    link: "https://zustand-demo.pmnd.rs/",
+  },
+  {
+    name: "Pinia",
+    src: "/svgs/pinia-logo.svg",
+    link: "https://pinia.vuejs.org/",
+  },
+  {
     name: "Axios",
     src: "/svgs/axios-logo.svg",
     link: "https://axios-http.com/",
@@ -61,24 +76,9 @@ const skills: SkillsType[] = [
     link: "https://tanstack.com/",
   },
   {
-    name: "Motion",
-    src: "/svgs/motion-logo.svg",
-    link: "https://motion.dev/",
-  },
-  {
     name: "Vitest",
     src: "/svgs/vitest-logo.svg",
     link: "https://vitest.dev/",
-  },
-  {
-    name: "Zustand",
-    src: "/svgs/zustand-logo.svg",
-    link: "https://zustand-demo.pmnd.rs/",
-  },
-  {
-    name: "Redux",
-    src: "/svgs/redux-logo.svg",
-    link: "https://redux.js.org/",
   },
   {
     name: "Vite",
