@@ -13,9 +13,9 @@ export default function Home() {
       <FadeInStagger className="flex flex-col w-full max-w-screen-md space-y-10 mt-10">
         <PresentationCard />
         <SummarySection />
+        <SkillsSection />
         <WorkExperiencesSection />
         <EducationSection />
-        <SkillsSection />
       </FadeInStagger>
     </div>
   );

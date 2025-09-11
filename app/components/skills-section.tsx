@@ -6,7 +6,7 @@ const SkillsSection = () => {
   return (
     <Column className="space-y-2 ">
       <h3 className="text-black dark:text-white font-bold text-xl">
-        Conhecimentos
+        Habilidades
       </h3>
       <div className="w-full grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4">
         {skills?.map((item, index) => (
@@ -23,76 +23,61 @@ const skills: SkillsType[] = [
   {
     name: "React",
     src: "/svgs/react-logo.svg",
-    link: "https://react.dev/",
   },
   {
     name: "Next.js",
     src: "/svgs/nextjs-logo.svg",
-    link: "https://nextjs.org/",
   },
   {
     name: "Vue.js",
     src: "/svgs/vuejs-logo.svg",
-    link: "https://vuejs.org/",
   },
   {
     name: "Nuxt.js",
     src: "/svgs/nuxtjs-logo.svg",
-    link: "https://nuxt.com/",
   },
   {
     name: "React Native",
     src: "/svgs/react-native-logo.svg",
-    link: "https://reactnative.dev/",
   },
   {
     name: "TypeScript",
     src: "/svgs/typescript-logo.svg",
-    link: "https://www.typescriptlang.org/",
   },
   {
     name: "Tailwind CSS",
     src: "/svgs/tailwindcss-logo.svg",
-    link: "https://tailwindcss.com/",
   },
   {
     name: "Zustand",
     src: "/svgs/zustand-logo.svg",
-    link: "https://zustand-demo.pmnd.rs/",
   },
   {
     name: "Pinia",
     src: "/svgs/pinia-logo.svg",
-    link: "https://pinia.vuejs.org/",
   },
   {
     name: "Axios",
     src: "/svgs/axios-logo.svg",
-    link: "https://axios-http.com/",
   },
   {
     name: "TanStack Query",
     src: "/svgs/tanstack-query-logo.svg",
-    link: "https://tanstack.com/",
   },
   {
     name: "Vitest",
     src: "/svgs/vitest-logo.svg",
-    link: "https://vitest.dev/",
   },
   {
     name: "Vite",
     src: "/svgs/vite-logo.svg",
-    link: "https://vite.dev/",
   },
   {
     name: "Git",
     src: "/svgs/git-logo.svg",
-    link: "https://git-scm.com/",
   },
   {
     name: "GitHub",
     src: "/svgs/github-logo.svg",
-    link: "https://github.com/",
   },
 ];
