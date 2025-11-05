@@ -27,7 +27,7 @@ const workExperiences: WorkExperiencesType[] = [
       "Desenvolvimento e manutenção do front-end de um ecossistema B2B de pagamentos. A plataforma inclui um painel administrativo para comerciantes, um portal web para clientes finais e aplicativos móveis (iOS e Android)",
   },
   {
-    company: "Nau! SaaS (Freelance)",
+    company: "Nau! SaaS",
     companyLink: "https://www.linkedin.com/company/fabrika-apps/",
     employmentDuration: "Jun/2025 - Jul/2025",
     jobTitle: "Desenvolvedor Front-end Web & Mobile",
