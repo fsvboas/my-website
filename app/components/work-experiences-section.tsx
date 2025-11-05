@@ -19,6 +19,14 @@ export default WorkExperiencesSection;
 
 const workExperiences: WorkExperiencesType[] = [
   {
+    company: "Hypn Tech",
+    companyLink: "https://www.linkedin.com/company/hypn-tech/",
+    employmentDuration: "Set/2025 - o momento",
+    jobTitle: "Desenvolvedor Front-end Web",
+    jobDescription:
+      "Desenvolvimento e manutenção do front-end de um ecossistema B2B de pagamentos. A plataforma inclui um painel administrativo para comerciantes, um portal web para clientes finais e aplicativos móveis (iOS e Android)",
+  },
+  {
     company: "Nau! SaaS (Freelance)",
     companyLink: "https://www.linkedin.com/company/fabrika-apps/",
     employmentDuration: "Jun/2025 - Jul/2025",
