@@ -24,7 +24,7 @@ const workExperiences: WorkExperiencesType[] = [
     employmentDuration: "Set/2025 - o momento",
     jobTitle: "Desenvolvedor Front-end Web",
     jobDescription:
-      "Desenvolvimento e manutenção do front-end de um ecossistema B2B de pagamentos. A plataforma inclui um painel administrativo para comerciantes, um portal web para clientes finais e aplicativos móveis (iOS e Android)",
+      "Desenvolvimento e manutenção do front-end de um ecossistema B2B de pagamentos.",
   },
   {
     company: "Nau! SaaS",
