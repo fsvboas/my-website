@@ -19,16 +19,49 @@ export default WorkExperiencesSection;
 
 const workExperiences: WorkExperiencesType[] = [
   {
-    company: "Hypn Tech",
-    companyLink: "https://www.linkedin.com/company/hypn-tech/",
+    company: "Grupo Viriato",
+    companyLink: "https://linkedin.com/company/grupo-viriato/",
     employmentDuration: "Set/2025 - o momento",
+    jobTitle: "Desenvolvedor Front-end Web",
+    jobDescription: (
+      <>
+        Desenvolvimento de uma plataforma completa de precificação de produtos,
+        focada nos impactos da Reforma Tributária, possibilitando a simulação de
+        cenários com IBS/CBS, definição de margens e análise dos efeitos fiscais
+        na formação de preços.
+        <br />
+        <br />
+        Também sou responsável pela criação da landing page do produto, com foco
+        em apresentar a solução de forma clara, esclarecer os impactos da
+        Reforma Tributária para o cliente e captar o interesse de potenciais
+        usuários. O trabalho inclui otimizações de SEO, performance e
+        acessibilidade, utilizando Google Search Console e Lighthouse.
+        <br />
+        <br />
+        Conheça a{" "}
+        <a
+          href="https://precificapp.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          Precific
+        </a>
+        !
+      </>
+    ),
+  },
+  {
+    company: "Hypn Tech",
+    companyLink: "https://linkedin.com/company/hypn-tech/",
+    employmentDuration: "Set/2025 - Dez/2025",
     jobTitle: "Desenvolvedor Front-end Web",
     jobDescription:
       "Desenvolvimento e manutenção do front-end de um ecossistema B2B de pagamentos.",
   },
   {
     company: "Nau! SaaS",
-    companyLink: "https://www.linkedin.com/company/fabrika-apps/",
+    companyLink: "https://linkedin.com/company/fabrika-apps/",
     employmentDuration: "Jun/2025 - Jul/2025",
     jobTitle: "Desenvolvedor Front-end Web & Mobile",
     jobDescription:
@@ -73,7 +106,7 @@ const workExperiences: WorkExperiencesType[] = [
   },
   {
     company: "NEORIS",
-    companyLink: "https://www.linkedin.com/company/neoris/",
+    companyLink: "https://linkedin.com/company/neoris/",
     employmentDuration: "Mai/2021 - Nov/2021",
     jobTitle: "Desenvolvedor SAP",
     jobDescription:
