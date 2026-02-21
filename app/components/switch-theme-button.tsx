@@ -3,50 +3,29 @@
 import { motion } from "framer-motion";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { Show } from "./utils/show";
 
 const SwitchThemeButton = () => {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return <div className="w-10 h-10 opacity-0 mb-4" />;
-  }
 
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.8, y: 20 }}
-      animate={{ opacity: 1, scale: 1, y: 0 }}
-      transition={{
-        duration: 0.6,
-        delay: 0.3,
-        ease: "easeOut",
-      }}
-      className="h-fit w-full flex justify-end"
+    <Button
+      aria-label="switch-theme"
+      className="shadow-none p-0 h-fit"
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      <Button
-        aria-label="switch-theme"
-        className="shadow-none"
-        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      <motion.div
+        key={theme}
+        initial={{ rotate: 180, opacity: 0 }}
+        animate={{ rotate: 0, opacity: 1 }}
+        transition={{ duration: 0.3 }}
       >
-        <motion.div
-          key={theme}
-          initial={{ rotate: 180, opacity: 0 }}
-          animate={{ rotate: 0, opacity: 1 }}
-          transition={{ duration: 0.3 }}
-        >
-          <Show when={theme === "light"} fallback={<Sun />}>
-            <Moon />
-          </Show>
-        </motion.div>
-      </Button>
-    </motion.div>
+        <Show when={theme === "light"} fallback={<Sun />}>
+          <Moon />
+        </Show>
+      </motion.div>
+    </Button>
   );
 };
 

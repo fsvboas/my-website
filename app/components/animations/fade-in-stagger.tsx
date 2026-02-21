@@ -19,11 +19,9 @@ const FadeInStagger = ({
   const fadeInUp: Variants = {
     hidden: {
       opacity: 0,
-      y: 60,
     },
     visible: {
       opacity: 1,
-      y: 0,
       transition: {
         duration: animationDuration,
         ease: "easeOut",
@@ -48,6 +46,7 @@ const FadeInStagger = ({
       animate="visible"
       variants={staggerContainer}
       className={className}
+      layout="position"
     >
       {childrenArray.map((child, index) => (
         <motion.div key={index} variants={fadeInUp}>
