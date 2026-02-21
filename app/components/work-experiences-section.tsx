@@ -43,7 +43,7 @@ const workExperiences: WorkExperiencesType[] = [
           href="https://precificapp.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
+          className="text-blue-600 hover:underline"
         >
           Precific
         </a>

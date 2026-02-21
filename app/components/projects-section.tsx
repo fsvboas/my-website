@@ -22,7 +22,7 @@ const ProjectsSection = () => {
           href="https://linkedin.com/in/fsvboas"
           target="_href"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline"
+          className="text-blue-600 hover:underline"
         >
           LinkedIn
         </a>
