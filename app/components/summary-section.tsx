@@ -5,13 +5,11 @@ const SummarySection = () => {
     <Column className="space-y-2">
       <h3 className="text-black dark:text-white font-bold text-xl">Resumo</h3>
       <p className="text-gray-600 dark:text-gray-400 text-justify">
-        Desenvolvedor Front-end com 3 anos de experiência na criação de
-        interfaces modernas, responsivas e performáticas para aplicações web e
-        mobile. Possui domínio em tecnologias como React, Next.js, React Native,
-        TypeScript, Tailwind CSS e TanStack Query, além de experiência sólida na
-        integração com APIs RESTful. Atua com boas práticas de versionamento
-        utilizando Git e tem familiaridade com metodologias ágeis, colaborando
-        de forma eficiente em times multidisciplinares.
+        Desenvolvedor Front-end com quase 4 anos de experiência criando
+        interfaces modernas, responsivas e focadas em performance para
+        aplicações web e mobile. Gosto de transformar ideias em experiências
+        intuitivas, com atenção especial à usabilidade, acessibilidade e boas
+        práticas de desenvolvimento.
       </p>
     </Column>
   );

@@ -1,3 +1,4 @@
+import { ScrollProgress } from "@/app/components/animations/scroll-progress";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -29,6 +30,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <ScrollProgress />
           {children}
         </ThemeProvider>
       </body>

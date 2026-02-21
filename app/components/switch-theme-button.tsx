@@ -41,10 +41,7 @@ const SwitchThemeButton = () => {
           animate={{ rotate: 0, opacity: 1 }}
           transition={{ duration: 0.3 }}
         >
-          <Show
-            when={theme === "light"}
-            fallback={<Sun className="text-yellow-500" />}
-          >
+          <Show when={theme === "light"} fallback={<Sun />}>
             <Moon />
           </Show>
         </motion.div>

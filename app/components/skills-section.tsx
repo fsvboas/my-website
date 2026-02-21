@@ -1,16 +1,20 @@
 import { SkillsType } from "../types/skills-type";
-import SkillCard from "./skill-card";
+import SkillBadge from "./skill-badge";
 import { Column } from "./utils/column";
 
 const SkillsSection = () => {
   return (
-    <Column className="space-y-2 ">
+    <Column className="gap-2">
       <h3 className="text-black dark:text-white font-bold text-xl">
-        Habilidades
+        Conhecimentos Técnicos
       </h3>
-      <div className="w-full grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4">
+      <div className="w-full grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-2">
         {skills?.map((item, index) => (
-          <SkillCard skill={item} key={index} />
+          <SkillBadge
+            skill={item}
+            key={index}
+            imageClassName={item.className}
+          />
         ))}
       </div>
     </Column>
@@ -27,6 +31,7 @@ const skills: SkillsType[] = [
   {
     name: "Next.js",
     src: "/svgs/nextjs-logo.svg",
+    className: "bg-white overflow-hidden p-px rounded-full",
   },
   {
     name: "Vue.js",
@@ -39,6 +44,7 @@ const skills: SkillsType[] = [
   {
     name: "React Native",
     src: "/svgs/react-native-logo.svg",
+    className: "bg-white overflow-hidden p-px rounded-full",
   },
   {
     name: "TypeScript",
@@ -79,5 +85,6 @@ const skills: SkillsType[] = [
   {
     name: "GitHub",
     src: "/svgs/github-logo.svg",
+    className: "bg-white overflow-hidden p-px rounded-full",
   },
 ];

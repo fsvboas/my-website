@@ -38,7 +38,7 @@ const workExperiences: WorkExperiencesType[] = [
         acessibilidade, utilizando Google Search Console e Lighthouse.
         <br />
         <br />
-        Conheça a{" "}
+        Conheça o{" "}
         <a
           href="https://precificapp.com"
           target="_blank"
