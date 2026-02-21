@@ -16,7 +16,7 @@ const SwitchThemeButton = () => {
   }, []);
 
   if (!mounted) {
-    return <div className="absolute right-6 top-6 w-10 h-10 opacity-0" />;
+    return <div className="w-10 h-10 opacity-0 mb-4" />;
   }
 
   return (
@@ -28,7 +28,7 @@ const SwitchThemeButton = () => {
         delay: 0.3,
         ease: "easeOut",
       }}
-      className="absolute right-6 top-6"
+      className="h-fit w-full flex justify-end"
     >
       <Button
         aria-label="switch-theme"
