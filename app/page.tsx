@@ -1,3 +1,4 @@
+import ProjectsSection from "@/app/components/projects-section";
 import FadeInStagger from "./components/animations/fade-in-stagger";
 import EducationSection from "./components/education-section";
 import PresentationCard from "./components/presentation-card";
@@ -14,6 +15,7 @@ export default function Home() {
         <PresentationCard />
         <SummarySection />
         <SkillsSection />
+        <ProjectsSection />
         <WorkExperiencesSection />
         <EducationSection />
       </FadeInStagger>

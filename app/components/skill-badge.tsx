@@ -15,7 +15,7 @@ const SkillBadge = ({ skill, imageClassName }: SkillBadgeProps) => {
         width={24}
         src={skill.src}
         alt={skill.name}
-        className={`shrink-0 w-6 h-6, ${imageClassName}`}
+        className={imageClassName}
       />
       <span className="text-xs shrink-0">{skill.name}</span>
     </Row>
