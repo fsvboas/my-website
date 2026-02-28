@@ -14,7 +14,7 @@ const ProjectsSection = () => {
           </span>
         </Row>
       </Row>
-      <p className="text-gray-600 dark:text-gray-400">
+      <p className="text-gray-600 dark:text-gray-400 text-justify">
         Esta seção está em construção. Enquanto isso, convido você a explorar
         alguns dos projetos profissionais em que participei diretamente na minha
         seção de Projetos no{" "}
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
           href="https://linkedin.com/in/fsvboas"
           target="_href"
           rel="noopener noreferrer"
-          className="text-blue-600 hover:underline"
+          className="text-blue-600r hover:underline"
         >
           LinkedIn
         </a>
